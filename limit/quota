@@ -30,7 +30,7 @@ function con() {
 }
 
 function cekvmess(){
-  data=($(cat /etc/xray/config.json | grep '^##' | cut -d ' ' -f 2 | sort | uniq))
+  data=($(cat /etc/xray/config.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq))
   if [[ ! -e /etc/limit/vmess ]]; then
   mkdir -p /etc/limit/vmess
   fi
@@ -193,7 +193,7 @@ do
                if [[ ${pakai} -gt ${cekdulu} ]]; then
                   exp=$(grep -w "^#& $user" "/etc/xray/config.json" | cut -d ' ' -f 3 | sort | uniq)
                   sed -i "/^#& $user $exp/,/^},{/d" /etc/xray/config.json
-                  sed -i "/^#& $user $exp/d" /etc/vless/.vless.db
+                  sed -i "/^### $user $exp/d" /etc/vless/.vless.db
                   systemctl restart xray >> /dev/null 2>&1
                   bol=$(cat /etc/limit/vless/${user});
                   total=$(con ${bol})
@@ -229,7 +229,7 @@ do
                if [[ ${pakai} -gt ${cekdulu} ]]; then
                   exp=$(grep -w "^#! $user" "/etc/xray/config.json" | cut -d ' ' -f 3 | sort | uniq)
                   sed -i "/^#! $user $exp/,/^},{/d" /etc/xray/config.json
-                  sed -i "/^#! $user $exp/d" /etc/trojan/.trojan.db
+                  sed -i "/^### $user $exp/d" /etc/trojan/.trojan.db
                   systemctl restart xray >> /dev/null 2>&1
                   bol=$(cat /etc/limit/trojan/${user});
                   total=$(con ${bol})
@@ -265,7 +265,7 @@ do
                if [[ ${pakai} -gt ${cekdulu} ]]; then
                   exp=$(grep -w "^#!# $user" "/etc/xray/config.json" | cut -d ' ' -f 3 | sort | uniq)
                   sed -i "/^#!# $user $exp/,/^},{/d" /etc/xray/config.json
-                  sed -i "/^#!# $user $exp/d" /etc/shadowsocks/.shadowsocks.db
+                  sed -i "/^### $user $exp/d" /etc/shadowsocks/.shadowsocks.db
                   systemctl restart xray >> /dev/null 2>&1
                   bol=$(cat /etc/limit/shadowsocks/${user});
                   total=$(con ${bol})
