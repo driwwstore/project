@@ -1,6 +1,6 @@
 
 
-### SCRIPT INSTALL: 
+### SCRIPT INSTALL : 
 <pre><code>wget https://driwwstore.github.io/project/installer/gas.sh; bash gas.sh
 </code></pre>
 
