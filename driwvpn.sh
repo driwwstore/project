@@ -9,14 +9,14 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
+wget -O ~/menu.zip "https://raw.githubusercontent.com/driwwstore/project/main/menu/menu.zip" >/dev/null 2>&1
+    mkdir /root/menu
+    7z e -p*Cianjur123   ~/menu.zip -o/root/menu/ >/dev/null 2>&1
+    chmod +x /root/menu/*
+    mv /root/menu/* /usr/bin/
+clear
 wget https://raw.githubusercontent.com/driwwstore/project/main/bot/driwvpn.zip
 unzip driwvpn.zip
-mv driwvpn/* /usr/bin
-chmod +x /usr/bin/*
-rm -rf driwvpn.zip
-clear
-#wget https://raw.githubusercontent.com/driwwstore/project/main/bot/driwvpn.zip
-#unzip driwvpn.zip
 pip3 install -r driwvpn/requirements.txt
 
 #isi data
