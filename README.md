@@ -1,7 +1,7 @@
 
 
 ### SCRIPT INSTALL : 
-<pre><code>wget https://driwwstore.github.io/project/installer/sok.sh; bash sok.sh
+<pre><code>wget https://driwwstore.github.io/project/installer/gas.sh; bash gas.sh
 </code></pre>
 
 ### FITUR
