@@ -15,7 +15,6 @@
 
 ☑️ XRAY SHDSCKS WEBSOCKET TLS & NON-TLS 443/80
 
-Jika minat hubungi saya disini :<a href="https://t.me/driwwvpn" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 
 ![BUY](https://github.com/driwwstore/project/raw/main/BUY.png)
 - Dana/Ovo/Gopay/ShopeePay
