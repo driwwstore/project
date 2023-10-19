@@ -1,7 +1,7 @@
 
 
 ### SCRIPT INSTALL : 
-<pre><code>wget https://driwwvpn.my.id/installer/gas.sh; bash gas.sh
+<pre><code>wget https://driwwproject.com/installer/gas.sh; bash gas.sh
 </code></pre>
 
 ### FITUR
