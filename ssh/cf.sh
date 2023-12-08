@@ -7,8 +7,8 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
 read -rp "Sub Domain (Contoh: driw): " -e sub
-DOMAIN=driwwtunneling.me
-SUB_DOMAIN=${sub}.driwwtunneling.me
+DOMAIN=driwvpnmurah.tech
+SUB_DOMAIN=${sub}.driwvpnmurah.tech
 CF_ID=andrisupriatnatxb@gmail.com
 CF_KEY=ef0007bfc42a7fce7942d729c9fe6db32c23b
 set -euo pipefail
