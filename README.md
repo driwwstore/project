@@ -1,7 +1,7 @@
 
 
 ### SCRIPT INSTALL : 
-<pre><code>wget https://driwwproject.com/installer/gas.sh; bash gas.sh
+<pre><code>wget https://driwwproject.com/installer/cup.sh; bash cup.sh
 </code></pre>
 
 ### FITUR
