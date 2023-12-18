@@ -41,7 +41,7 @@
           "decryption":"none",
             "clients": [
                {
-                 "id": "driw-project-tunneling"
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vless
              }
           ]
@@ -60,7 +60,7 @@
       "settings": {
             "clients": [
                {
-                 "id": "driw-project-tunneling",
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
                  "alterId": 0
 #vmess
              }
@@ -81,7 +81,7 @@
           "decryption":"none",
            "clients": [
               {
-                 "password": "driw-project-tunneling"
+                 "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #trojanws
               }
           ],
@@ -102,7 +102,7 @@
            "clients": [
            {
            "method": "aes-128-gcm",
-          "password": "driw-project-tunneling"
+          "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #ssws
            }
           ],
@@ -123,7 +123,7 @@
          "decryption":"none",
            "clients": [
              {
-               "id": "driw-project-tunneling"
+               "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessgrpc
              }
           ]
@@ -142,7 +142,7 @@
       "settings": {
             "clients": [
                {
-                 "id": "driw-project-tunneling",
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
                  "alterId": 0
 #vmessgrpc
              }
@@ -163,7 +163,7 @@
           "decryption":"none",
              "clients": [
                {
-                 "password": "driw-project-tunneling"
+                 "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #trojangrpc
                }
            ]
@@ -183,7 +183,7 @@
         "clients": [
           {
              "method": "aes-128-gcm",
-             "password": "driw-project-tunneling"
+             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #ssgrpc 
            }
          ],
