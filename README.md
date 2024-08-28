@@ -1,7 +1,7 @@
 
 
 ### SCRIPT INSTALL : 
-<pre><code>wget https://driwwproject.com/installer/cup.sh; bash cup.sh
+<pre><code>wget https://driwwtunneling.live/installer/cup.sh; bash cup.sh
 </code></pre>
 
 ### FITUR
